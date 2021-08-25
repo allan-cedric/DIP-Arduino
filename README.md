@@ -1,6 +1,10 @@
 ## DIP Switch Library (C/C++)
 *   Simple library to read a DIP Switch on Arduino Platform. (**INPUT_PULLUP**)
 
+| ![DIPSwitch](./dipswitch3.jpg) |
+| :----------------------------: |
+|         *3-DIP Switch*         |
+
 ## How to use ?
 *   Include the library, define a set of pins and call the constructor `DIPSwitch`:
 
