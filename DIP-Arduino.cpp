@@ -10,7 +10,7 @@ DIPSwitch::DIPSwitch(uint8_t *pins, uint8_t nPins)
 
 uint8_t DIPSwitch::getState()
 {
-    uint8_t state = 0x0;
+    uint8_t state = 0;
     for (uint8_t i = 0; i < _nPins; i++)
     {
         if (!digitalRead(_pins[i]))
